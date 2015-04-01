@@ -1,0 +1,95 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Martines - Classified site for used clothes/accessories
+    // Bootstrap Core CSS
+    link(href='bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Custom CSS
+    style.
+      body {
+      padding-top: 70px;
+      /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+      }
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body
+    // Top Navigation Header
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        ul.nav.navbar-nav.navbar-left
+          li
+            a.navbar-brand(href='#') Martines
+          li
+            a(href='#') Feed
+          li.dropdown
+            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+              | Shop
+              span.caret
+            ul.dropdown-menu(role='menu')
+              li
+                a(href='#') Female
+              li.divider
+              li
+                a(href='#') shoes
+              li
+                a(href='#') clothes
+              li
+                a(href='#') accessories
+              li.divider
+              li
+                a(href='#') Male
+              li.divider
+              li
+                a(href='#') shoes
+              li
+                a(href='#') clothes
+              li
+                a(href='#') accessories
+          li
+            a(href='#') Forums
+        ul.nav.navbar-nav.navbar-right
+          li.dropdown
+            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+              | About Martines
+              span.caret
+            ul.dropdown-menu(role='menu')
+              li
+                a(href='#') Action
+              li
+                a(href='#') Another action
+              li
+                a(href='#') Something else here
+              li.divider
+              li
+                a(href='#') Separated link
+              li.divider
+              li
+                a(href='#') One more separated link
+          li
+            a(href='#') Sign up
+    // 
+    .container
+      .row
+        .col-sm-8
+          .row
+            .col-sm-6.col-md-4
+              .thumbnail
+                a
+                  img(src='./images/sample.jpg', alt='t-shirt')
+                .caption
+                  h3 distressed vans muscle tee
+                  h4 $10
+        .col-sm-4(style='background-color:lavenderblush;')
+          | Side panel
+    // jQuery Version 1.11.1
+    script(src='bootstrap/js/jquery.js')
+    // Bootstrap Core JavaScript
+    script(src='bootstrap/js/bootstrap.min.js')
